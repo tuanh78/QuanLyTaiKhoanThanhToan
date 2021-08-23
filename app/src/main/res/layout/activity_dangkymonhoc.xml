@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <TextView
+                android:textColor="#000000"
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sinh Viên : Nguyễn Đình Giang" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <TextView
+                android:textColor="#000000"
+                android:id="@+id/textView5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Mã SV : 2018601773" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <TextView
+                    android:id="@+id/textMonHoc"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Môn Học:" />
+
+            </TableRow>
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Spinner
+                android:id="@+id/spinner"
+                android:layout_width="210dp"
+                android:layout_height="wrap_content" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="340dp"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textView223"
+                android:layout_width="155dp"
+                android:layout_height="wrap_content"
+                android:text="Mã Đăng Ký:" />
+
+            <EditText
+                android:id="@+id/edMaThe"
+                android:layout_width="182dp"
+                android:layout_height="wrap_content"
+
+                android:inputType="textPersonName"
+                android:text="Name" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="340dp"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="155dp"
+                android:layout_height="wrap_content"
+                android:text="Tiền:" />
+
+            <EditText
+                android:id="@+id/editTien"
+                android:layout_width="182dp"
+                android:layout_height="wrap_content"
+
+                android:inputType="textPersonName"
+                android:text="Name" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ngày Đăng Ký:" />
+
+            <EditText
+                android:id="@+id/editNgay"
+                android:layout_width="172dp"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="Name" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="218dp"
+                android:layout_height="wrap_content"
+                android:text="Số Tín" />
+
+            <EditText
+                android:id="@+id/editTin"
+                android:layout_width="146dp"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="Name" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/btnThem"
+                android:layout_width="184dp"
+                android:layout_height="wrap_content"
+                android:onClick="add"
+                android:text="Đăng Ký" />
+
+
+
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+
+        </TableRow>
+
+
+
+
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+
+        </TableRow>
+    </TableLayout>
+
+    <ListView
+        android:id="@+id/listMonHoc"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="370dp" />
+</RelativeLayout>

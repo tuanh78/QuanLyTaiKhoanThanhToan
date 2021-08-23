@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:background="#e67e22"
+        android:gravity="center"
+        android:textAllCaps="true"
+        android:text="Thêm những khoản đã thanh toán"
+        android:textColor="#fff"
+        android:textSize="15sp" />
+
+    <LinearLayout
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="300dp"
+        android:layout_marginTop="10dp"
+        android:weightSum="1">
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:text="Mã khoản thu: "
+                android:textSize="15sp" />
+
+            <EditText
+                android:id="@+id/edMaThe"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:enabled="false"
+                android:inputType="number"
+                android:textSize="13sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:text="Tên khoản thu: "
+                android:textSize="15sp" />
+
+            <Spinner
+                android:id="@+id/spTenKhoanThu"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:inputType="number"
+                android:textSize="13sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:text="Diễn giải: "
+                android:textSize="15sp" />
+
+            <EditText
+                android:id="@+id/edTenKH"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="text"
+                android:textSize="13sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+
+            >
+
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:text="Thời gian thu: "
+                android:textSize="15sp" />
+
+            <EditText
+                android:id="@+id/edDate"
+                android:layout_width="120dp"
+                android:layout_height="match_parent"
+                android:enabled="false"
+                android:inputType="text"
+                android:textSize="13sp"
+
+                />
+
+            <Button
+                android:id="@+id/btnDate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:backgroundTint="#9b59b6"
+                android:text="Chọn ngày"
+                android:textColor="#ecf0f1" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:text="Số tiền (vnđ):"
+                android:textSize="15sp" />
+
+            <EditText
+                android:id="@+id/edDiemTichLuy"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:inputType="number"
+                android:textSize="13sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:text="Số tín chỉ: "
+                android:textSize="15sp" />
+
+            <EditText
+                android:id="@+id/edSDt"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:inputType="number"
+                android:textSize="13sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp"
+            android:weightSum="1">
+
+            <Button
+                android:id="@+id/btnThem"
+                style="@style/Theme.Design"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="3dp"
+                android:layout_weight="1"
+                android:backgroundTint="@color/teal_700"
+                android:text="Thêm"
+                android:textAllCaps="false"
+                android:textSize="13sp" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:background="#2ecc71"
+        android:gravity="center"
+        android:textAllCaps="true"
+        android:text="Danh sách những khoản đã thanh toán"
+        android:textColor="#fff" />
+
+    <ListView
+        android:id="@+id/lvDanhSach"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+
+        />
+</LinearLayout>

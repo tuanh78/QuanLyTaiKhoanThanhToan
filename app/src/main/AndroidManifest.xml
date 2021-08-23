@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.quanlytaikhoanthanhtoansinhvien">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.QuanLyTaiKhoanThanhToanSinhVien">
+    <activity android:name=".DangKyMonHoc.MonHocController"
+        android:label="Đăng ký môn học"/>
+    <activity android:name=".DanhSachCacKhoanDaThanhToan.MainActivity"
+        android:label="Khoản đã thanh toán"/>
+    <activity android:name=".NapTienTaiKhoan.NapTienController"
+        android:label="Nạp tiền tài khoản"/>
+    <activity android:name=".QuanLyMonHocDaDangKy.MainActivity"
+        android:label="Môn học đã đăng ký"/>
+    <activity android:name=".TrangChu.TrangChuController"
+        android:label="Tài khoản sinh viên"/>
+    <activity
+        android:name=".Login.LoginController"
+        android:label="Phần mềm quản lý tài khoản thanh toán sinh viên">
+        <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+
+            <category android:name="android.intent.category.LAUNCHER" />
+        </intent-filter>
+    </activity>
+    </application>
+
+</manifest>

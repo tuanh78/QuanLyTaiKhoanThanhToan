@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:descendantFocusability="blocksDescendants">
+
+    <TextView
+        android:id="@+id/subjectName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Lập trình Android"
+        android:textColor="#000"
+        android:textSize="18dp"
+        android:layout_marginTop="5dp"/>
+
+    <TextView
+        android:id="@+id/subjectMoney"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#D60B0B"
+        android:textSize="18dp"
+        android:layout_marginTop="5dp"/>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp">
+
+        <TextView
+            android:id="@+id/subjectTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:text="Tiết 1,2,3,4"
+            android:textColor="#000"
+            android:textSize="18dp" />
+
+        <TextView
+            android:id="@+id/subjectLocation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="409 - Nha A9"
+            android:textColor="#000"
+            android:textSize="18dp" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:weightSum="3">
+
+        <TextView
+            android:id="@+id/subjectQuantityStudents"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:textColor="#000"
+            android:textSize="18dp" />
+    </TableRow>
+
+</LinearLayout>

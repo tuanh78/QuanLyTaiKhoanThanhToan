@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btnDangKyMonHoc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="đăng ký môn học"
+        android:textSize="20sp"
+        android:paddingVertical="20dp"
+        android:layout_marginHorizontal="50dp"
+        android:layout_marginTop="100dp"
+        android:textColor="#FF3300"
+        android:backgroundTint="#FFCC00"/>
+
+    <Button
+        android:id="@+id/btnCacKhoan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Các khoản đã thanh toán"
+        android:textSize="20sp"
+        android:paddingVertical="20dp"
+        android:layout_marginHorizontal="50dp"
+        android:layout_marginTop="30dp"
+        android:textColor="#FF3300"
+        android:backgroundTint="#FFCC00"/>
+
+    <Button
+        android:id="@+id/btnNapTien"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nạp tiền tài khoản"
+        android:textSize="20sp"
+        android:paddingVertical="20dp"
+        android:layout_marginHorizontal="50dp"
+        android:layout_marginTop="30dp"
+        android:textColor="#FF3300"
+        android:backgroundTint="#FFCC00"/>
+
+    <Button
+        android:id="@+id/btnMonHocDaDangKy"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Môn học đã đăng ký"
+        android:textSize="20sp"
+        android:paddingVertical="20dp"
+        android:layout_marginHorizontal="50dp"
+        android:layout_marginTop="30dp"
+        android:textColor="#FF3300"
+        android:backgroundTint="#FFCC00"/>
+
+    <Button
+        android:id="@+id/btnQLTK"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="QL Tài khoản"
+        android:textSize="20sp"
+        android:paddingVertical="20dp"
+        android:layout_marginHorizontal="50dp"
+        android:layout_marginTop="30dp"
+        android:textColor="#FF3300"
+        android:backgroundTint="#FFCC00"/>
+
+</LinearLayout>
